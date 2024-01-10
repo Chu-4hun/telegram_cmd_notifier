@@ -18,7 +18,7 @@ _TODO_
 
 At first run you will need to enter your Telegram bot api key ([how to get one](https://core.telegram.org/bots/features#creating-a-new-bot))
 ```bash
->docker-telegram-notifier
+>telegram_cmd_notifier
 enter your Telegram bot key:
 ```
 And after that program will save config.json in

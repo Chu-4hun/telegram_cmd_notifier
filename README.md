@@ -8,7 +8,7 @@ This requires [cargo to be installed](https://www.rust-lang.org/tools/install) o
 
 This clones this repo and installs it
 ```bash
-git clone https://github.com/Chu-4hun/telegram_cmd_notifier && cd telegram_cmd_notifier && cargo install
+cargo install --git https://github.com/Chu-4hun/telegram_cmd_notifier
 ```
 
 ### Using releases

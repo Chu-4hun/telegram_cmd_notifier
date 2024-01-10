@@ -22,7 +22,7 @@ curl -O telegram_cmd_notifier.exe  https://github.com/Chu-4hun/telegram_cmd_noti
 #### Linux
 * Download the latest release
 ```bash
-curl -O telegram_cmd_notifier https://github.com/Chu-4hun/telegram_cmd_notifier/releases/latest/download/telegram_cmd_notifier_x86_64-unknown-linux-gnu
+wget -O telegram_cmd_notifier https://github.com/Chu-4hun/telegram_cmd_notifier/releases/latest/download/telegram_cmd_notifier_x86_64-unknown-linux-gnu
 ```
 * put it in folder included in PATH
 

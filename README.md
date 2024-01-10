@@ -18,7 +18,7 @@ cargo install --git https://github.com/Chu-4hun/telegram_cmd_notifier
 * put it in folder included in PATH
 #### Linux
 * get the latest [release]( https://github.com/Chu-4hun/telegram_cmd_notifier/releases/latest/download/telegram_cmd_notifier_x86_64-unknown-linux-gnu)
-* rename file to the `telegram_cmd_notifier.exe`
+* rename file to the `telegram_cmd_notifier`
 * put it in folder included in PATH
 
 

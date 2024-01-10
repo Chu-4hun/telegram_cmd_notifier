@@ -13,12 +13,16 @@ cargo install --git https://github.com/Chu-4hun/telegram_cmd_notifier
 
 ### Using releases
 #### Win
-* get the latest [release]( https://github.com/Chu-4hun/telegram_cmd_notifier/releases/latest/download/telegram_cmd_notifier_x86_64-pc-windows-msvc.exe)
-* rename file to the `telegram_cmd_notifier.exe`
-* put it in folder included in PATH
+Download the latest release
+```bash
+curl -O telegram_cmd_notifier.exe  https://github.com/Chu-4hun/telegram_cmd_notifier/releases/latest/download/telegram_cmd_notifier_x86_64-unknown-linux-gnu
+```
+put it in folder included in PATH
+
 #### Linux
-* get the latest [release]( https://github.com/Chu-4hun/telegram_cmd_notifier/releases/latest/download/telegram_cmd_notifier_x86_64-unknown-linux-gnu)
-* rename file to the `telegram_cmd_notifier`
+```bash
+curl -O telegram_cmd_notifier https://github.com/Chu-4hun/telegram_cmd_notifier/releases/latest/download/telegram_cmd_notifier_x86_64-unknown-linux-gnu
+```
 * put it in folder included in PATH
 
 
@@ -26,7 +30,7 @@ cargo install --git https://github.com/Chu-4hun/telegram_cmd_notifier
 
 At first run you will need to enter your Telegram bot api key ([how to get one](https://core.telegram.org/bots/features#creating-a-new-bot))
 ```bash
->telegram_cmd_notifier
+telegram_cmd_notifier
 enter your Telegram bot key:
 ```
 And after that program will save config.json in

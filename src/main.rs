@@ -33,7 +33,7 @@ async fn main() -> io::Result<()> {
     let new_thread_bot = Arc::clone(&bot);
     let path = dir.as_os_str().to_str().unwrap_or_default().to_owned();
 
-    debug!("{}", dir.display());
+    println!("your config file is located here: {}", dir.display());
 
     tokio::task::spawn(async move {
         bot_task(new_thread_bot, path.clone()).await;
@@ -79,13 +79,12 @@ fn setup_project_dirs() -> Result<std::path::PathBuf, Box<dyn std::error::Error>
     let mut dir = proj_dirs.preference_dir().to_path_buf();
     std::fs::create_dir_all(&dir)?;
     dir.push("config.json");
-    debug!("{}", dir.display());
     Ok(dir)
 }
 
 fn setup_logging() -> Result<(), Box<dyn std::error::Error>> {
     let subscriber = FmtSubscriber::builder()
-        .with_max_level(Level::DEBUG)
+        .with_max_level(Level::WARN)
         .finish();
     tracing::subscriber::set_global_default(subscriber).map_err(|e| e.into())
 }

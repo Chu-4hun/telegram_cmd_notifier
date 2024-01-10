@@ -1,5 +1,5 @@
 [package]
-name = "docker-telegram-notifier"
+name = "telegram_cmd_notifier"
 version = "0.1.0"
 edition = "2021"
 

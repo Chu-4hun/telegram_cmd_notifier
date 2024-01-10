@@ -208,20 +208,6 @@ dependencies = [
 ]
 
 [[package]]
-name = "docker-telegram-notifier"
-version = "0.1.0"
-dependencies = [
- "async-trait",
- "directories",
- "serde",
- "serde_json",
- "teloxide",
- "tokio",
- "tracing",
- "tracing-subscriber",
-]
-
-[[package]]
 name = "dptree"
 version = "0.3.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -1164,6 +1150,20 @@ name = "takecell"
 version = "0.1.1"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "20f34339676cdcab560c9a82300c4c2581f68b9369aedf0fae86f2ff9565ff3e"
+
+[[package]]
+name = "telegram_cmd_notifier"
+version = "0.1.0"
+dependencies = [
+ "async-trait",
+ "directories",
+ "serde",
+ "serde_json",
+ "teloxide",
+ "tokio",
+ "tracing",
+ "tracing-subscriber",
+]
 
 [[package]]
 name = "teloxide"
